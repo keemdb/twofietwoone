@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Uiyeun';
+    src: url('../fonts/Uiyeun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Uiyeun';
+}
+
+.startBtn-wrap {
+	text-align: center;
+}
+
+.startBtn,
+.answerBtn {
+	background: #68985a;
+	color: #fff;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto;
+	border: 1px solid #68985a;
+	transition: background .1s ease-out;
+}
+.answerBtn {
+	width: 100%;
+}
+.startBtn:hover,
+.startBtn:active,
+.answerBtn:hover,
+.answerBtn:active {
+	color: #68985a;
+	background: #f1cbb6;
+	border: 1px solid #f1cbb6;
+}
+
+.wrapper {
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.start .mainImg {
+	text-align: center;
+}
+
+.start .mainImg img {
+	max-width: 436px;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.contact {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.contact a {
+	color: #577f67;
+	text-decoration: none;
+}
+
+.question h3 {
+	color: #577f67;
+}
+
+.question .quizImg {
+	text-align: center;
+}
+.question .quizImg img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.question button {
+	background: #577f67;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	height: 50px;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
+.question {
+	display: none;
+}
+
+.result {
+	display: none;
+	text-align: center;
+}
+
+#img {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.share {
+	margin: 0 auto;
+}
+
+.progress {
+	background: #f1cbb6;
+	border-radius: 8px;
+}
+
+.progress-bar {
+	background: #577f67;
+}
+
+.result {
+	margin: 20px 0;
+	background: #f8ece0;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.result .resultTitle {
+	color: #091d1d;
+	font-size: 1.5rem;
+}
+
+.result #resultImg {
+	width: 170px;
+}
+
+#resultNm {
+	font-size: 2.5rem;
+	color: #091d1d;
+	background: #c7baa9;
+    width: 170px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+#explain {
+	padding-left: 0;
+}
+#explain li {
+	color: #091d1d;
+	list-style: none;
+	font-size: 1.5rem;
+}
+
+.result .retry {
+	margin-bottom: 20px;
+}
+
+.result .retry .retryBtn {
+	background: #577f67;
+	color: #f8ece0;
+	border: 1px solid #577f67;
+	outline: none;
+	font-size: 1.25rem;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	transition: all .2s ease-out;
+}
+
+.result .retry .retryBtn:hover {
+	background: #f8ece0;
+	color: #577f67;
+	border: 1px solid #577f67;
+}
+
+.kakao_ad {
+	width: 320px;
+	margin: 0 auto;
+}
